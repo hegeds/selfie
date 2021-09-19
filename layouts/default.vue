@@ -9,7 +9,7 @@
         <v-list-item
           v-for="(item, i) in items"
           :key="i"
-          :to="item.to"
+          :href="item.to"
           router
           exact
         >
@@ -52,9 +52,25 @@ export default {
           icon: 'mdi-apps',
           title: 'Welcome',
           to: '/'
+        },
+        {
+          icon: 'mdi-apps',
+          title: 'About Me',
+          to: '/#about-me'
+        },
+        {
+          icon: 'mdi-download-box-outline',
+          title: 'Resume',
+          to: '/#cv'
         }
       ]
     }
   }
 }
 </script>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
