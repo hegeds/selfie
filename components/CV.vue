@@ -14,7 +14,10 @@
     </v-row>
     <v-row>
       <v-col class="d-flex justify-center">
-        <v-btn>
+        <v-btn
+          color="blue-grey darken-4"
+          x-large
+        >
           Download
         </v-btn>
       </v-col>
