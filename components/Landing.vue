@@ -15,7 +15,7 @@
         </v-avatar>
       </v-col>
     </v-row>
-    <v-row class="grey justify-center rounded-pill" style="margin-left: 10vmin; margin-right: 10vmin">
+    <v-row class="blue-grey justify-center rounded-pill" style="margin-left: 10vmin; margin-right: 10vmin">
       <v-col v-for="item in items" :key="item.href" cols="auto">
         <a :href="item.href" target="blank" style="text-decoration: none;">
           <v-icon size="8vmin" @click="href=item.href">

@@ -3,7 +3,7 @@
     <v-navigation-drawer
       v-model="drawer"
       app
-      disable-resize-watcher
+      color="blue-grey darken-4"
     >
       <v-list>
         <v-list-item
@@ -25,17 +25,19 @@
     <v-app-bar
       app
       inverted-scroll
+      color="blue-grey darken-4"
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
     </v-app-bar>
     <v-main>
-      <v-container>
+      <v-container @click="drawer = false">
         <Nuxt />
       </v-container>
     </v-main>
     <v-footer
       app
       absolute
+      color="blue-grey darken-4"
     >
       <span>&copy; {{ `${new Date().getFullYear()} Hegedüs Bálint` }}</span>
     </v-footer>
@@ -72,5 +74,9 @@ export default {
 <style>
   html {
     scroll-behavior: smooth;
+  }
+
+  .theme--dark.v-application {
+    background: none;
   }
 </style>
