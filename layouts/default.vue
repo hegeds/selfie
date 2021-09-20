@@ -4,6 +4,7 @@
       v-model="drawer"
       app
       color="blue-grey darken-4"
+      disable-resize-watcher
     >
       <v-list>
         <v-list-item
