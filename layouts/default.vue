@@ -52,14 +52,19 @@ export default {
       drawer: false,
       items: [
         {
-          icon: 'mdi-apps',
+          icon: 'mdi-home',
           title: 'Welcome',
           to: '/'
         },
         {
-          icon: 'mdi-apps',
+          icon: 'mdi-account',
           title: 'About Me',
           to: '/#about-me'
+        },
+        {
+          icon: 'mdi-playlist-check',
+          title: 'Skills',
+          to: '/#skills'
         },
         {
           icon: 'mdi-download-box-outline',

@@ -11,6 +11,9 @@
       <v-row id="about-me" class="pt-16">
         <AboutMe />
       </v-row>
+      <v-row id="skills" class="pt-16">
+        <Skills />
+      </v-row>
       <v-row id="cv" class="pt-16">
         <CV />
       </v-row>
