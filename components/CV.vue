@@ -17,6 +17,8 @@
         <v-btn
           color="blue-grey darken-4"
           x-large
+          href="/balint_hegedus_cv.pdf"
+          target="blank"
         >
           Download
         </v-btn>
