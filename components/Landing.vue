@@ -2,7 +2,9 @@
   <v-container>
     <v-row>
       <v-col class="d-flex justify-center">
-        <h1> Welcome! </h1>
+        <h1 style="    font-size: 4em;">
+          Welcome!
+        </h1>
       </v-col>
     </v-row>
     <v-row class="py-10">

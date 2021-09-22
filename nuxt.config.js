@@ -6,8 +6,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - selfie',
-    title: 'selfie',
+    title: 'hegeds',
     htmlAttrs: {
       lang: 'en'
     },
