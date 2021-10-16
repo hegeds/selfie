@@ -70,11 +70,6 @@ export default {
           icon: 'mdi-download-box-outline',
           title: 'Resume',
           to: '/#cv'
-        },
-        {
-          icon: 'mdi-email-send-outline',
-          title: 'Contact',
-          to: '/#cv'
         }
       ]
     }
