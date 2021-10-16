@@ -17,6 +17,9 @@
       <v-row id="cv" class="pt-16">
         <CV />
       </v-row>
+      <v-row id="contact" class="pt-16">
+        <Contact />
+      </v-row>
     </div>
   </v-container>
 </template>
